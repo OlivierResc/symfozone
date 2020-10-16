@@ -10,7 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="2" />
+    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="2">
+      <change afterPath="$PROJECT_DIR$/public/build/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/runtime.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +176,7 @@
       <workItem from="1602750841652" duration="15123000" />
       <workItem from="1602777609255" duration="531000" />
       <workItem from="1602780093448" duration="3169000" />
-      <workItem from="1602835168773" duration="684000" />
+      <workItem from="1602835168773" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="le preums">
       <created>1602767126225</created>
@@ -193,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602835556781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1602835878184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602835878184</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,21 +250,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602769475669" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1602835939425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1602835939425" />
+    <state x="399" y="166" key="MultipleFileMergeDialog" timestamp="1602835944877">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="166" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1602835944877" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1602748952501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602748952501" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602835643282">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602836230096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602835643282" />
-    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602835856740">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602836230096" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602835885614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602835856740" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602749040532">
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602835885614" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602836020009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602749040532" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602836020009" />
   </component>
 </project>
