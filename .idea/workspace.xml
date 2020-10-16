@@ -11,11 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/public/build/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/entrypoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/build/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,11 +154,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/my_project_name2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -176,7 +182,8 @@
       <workItem from="1602750841652" duration="15123000" />
       <workItem from="1602777609255" duration="531000" />
       <workItem from="1602780093448" duration="3169000" />
-      <workItem from="1602835168773" duration="1061000" />
+      <workItem from="1602835168773" duration="8134000" />
+      <workItem from="1602848747404" duration="4936000" />
     </task>
     <task id="LOCAL-00001" summary="le preums">
       <created>1602767126225</created>
@@ -206,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602835878184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2">
+      <created>1602836250380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602836250380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +244,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602837472032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602837472032" />
+    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1602852953555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602852953555" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602668523848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,6 +272,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602769475669" />
+    <state width="189" height="539" key="HiddenNamespacesPopup" timestamp="1602837495924">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="539" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1602837495924" />
     <state x="147" y="65" key="MergeDialog" timestamp="1602835939425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -262,10 +288,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602748952501" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602836230096">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602836252491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602836230096" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602836252491" />
     <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602835885614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

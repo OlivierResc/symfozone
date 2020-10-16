@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="c'estbonalors" uuid="dc8cba89-1fbd-49ef-91b4-4593f7fd1431">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://mysql-tpjs.alwaysdata.net:3306/tpjs_pute</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="Europe/Madrid" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

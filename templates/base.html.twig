@@ -26,23 +26,31 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Menu</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Le100</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Chaud Bouillant</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Topics</a>
+            </li>
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Zone
+                    Paramètres
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Foot</a>
-                    <a class="dropdown-item" href="#">Basket</a>
+                    <a class="dropdown-item" href="#">Mon compte</a>
+                    <a class="dropdown-item" href="#">Le100</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Jeux</a>
+                    {% if app.user %}
+                        {{ app.user.username }}
+                        <a class="dropdown-item" href="{{ path('app_logout') }}">Se deconnecter</a>
+                    {% else %}
+                        <a class="dropdown-item" href="{{ path('app_login') }}">Se connecter</a>
+                    {% endif %}
+
+
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Paramètres</a>
-            </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
