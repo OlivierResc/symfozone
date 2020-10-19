@@ -10,15 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;">
+      <change afterPath="$PROJECT_DIR$/public/log.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +157,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/my_project_name2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/Projet_JS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
@@ -183,7 +182,13 @@
       <workItem from="1602777609255" duration="531000" />
       <workItem from="1602780093448" duration="3169000" />
       <workItem from="1602835168773" duration="8134000" />
-      <workItem from="1602848747404" duration="4936000" />
+      <workItem from="1602848747404" duration="6517000" />
+      <workItem from="1602860305633" duration="10092000" />
+      <workItem from="1602917118890" duration="4574000" />
+      <workItem from="1602927126774" duration="4462000" />
+      <workItem from="1602949437595" duration="1070000" />
+      <workItem from="1603102244713" duration="928000" />
+      <workItem from="1603109366481" duration="3141000" />
     </task>
     <task id="LOCAL-00001" summary="le preums">
       <created>1602767126225</created>
@@ -220,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602836250380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;">
+      <created>1602853938030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602853938030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,9 +253,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="le preums" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="53" key="#Plugins" timestamp="1602927854138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1602927854138" />
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602837472032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,10 +269,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="572" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602852953555" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602668523848">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602927010721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602668523848" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1602927010721" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603113798196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603113798196" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1602769475674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -288,10 +309,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602748952501" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602836252491">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602853949154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602836252491" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602853949154" />
+    <state x="412" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602949566009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="412" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1602949566009" />
     <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602835885614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
