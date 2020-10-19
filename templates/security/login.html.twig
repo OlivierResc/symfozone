@@ -37,13 +37,21 @@
                                     {% endif %}
 
                                     <div class="form-label-group">
-                                        <label for="inputUsername">Username</label>
-                                        <input type="text" value="{{ last_username }}" name="username" id="inputUsername" class="form-control" required autofocus>
+                                        <input type="text" name="username" id="inputUsername" class="form-control" placeholder="username" required autofocus>
+                                        <label for="inputUsername">Nom</label>
+                                        <!--
+                                        <label for="username">Username</label>
+                                        <input type="text" value="{{ last_username }}" name="username" id="inputUsername"  placeholder="username" class="form-control" required autofocus>
+                                    -->
                                     </div>
 
                                     <div class="form-label-group">
-                                        <label for="inputPassword">Password</label>
+                                        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="password" required>
+                                        <label for="inputPassword">Mot de passe</label>
+                                        <!--
+                                        <label for="password">Password</label>
                                         <input type="password" name="password" id="inputPassword" class="form-control" required>
+                                    -->
                                     </div>
 
                                     <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Se Connecter</button>

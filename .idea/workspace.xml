@@ -10,13 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;">
-      <change afterPath="$PROJECT_DIR$/public/log.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/register.css" afterDir="false" />
+    <list default="true" id="b7f39e8b-8b22-4212-a585-64db71a4937f" name="Default Changelist" comment="oui le sang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +183,7 @@
       <workItem from="1602927126774" duration="4462000" />
       <workItem from="1602949437595" duration="1070000" />
       <workItem from="1603102244713" duration="928000" />
-      <workItem from="1603109366481" duration="3141000" />
+      <workItem from="1603109366481" duration="4832000" />
     </task>
     <task id="LOCAL-00001" summary="le preums">
       <created>1602767126225</created>
@@ -232,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602853938030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="oui le sang">
+      <created>1603115346791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603115346791</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +256,8 @@
     <MESSAGE value="le preums" />
     <MESSAGE value="2" />
     <MESSAGE value="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;a class=&quot;dropdown-item&quot; href=&quot;{{ path('app_login') }}&quot;&gt;Se connecter&lt;/a&gt;" />
+    <MESSAGE value="oui le sang" />
+    <option name="LAST_COMMIT_MESSAGE" value="oui le sang" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="53" key="#Plugins" timestamp="1602927854138">
@@ -309,10 +312,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602748952501" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1602853949154">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1603115356584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602853949154" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603115356584" />
     <state x="412" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602949566009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
