@@ -31,19 +31,34 @@
                             <h5>Nom d'utilisateur</h5>
                             {{ form_start(registrationForm) }}
                                 <div class="form-label-group">
-                                    {{ form_row(registrationForm.username, { label : 'Configurer votre pseudo' }) }}
+                                    <!--
+                                    <input type="text" name="username" id="username" class="form-control" placeholder="Nouveau nom d'utilisateur" autofocus>
+                                    <label for="username">Nouveau nom d'utilisateur</label>
+                                    -->
+                                    {{ form_widget(registrationForm.username, { 'attr': { 'class': 'form-control', 'id': 'inputUsername',
+                                        'placeholder': 'Nouveau nom', 'autofocus': 'autofocus'} }) }}
+                                    <label for="{{ registrationForm.username.vars.id }}">
+                                        Le sang hein
+                                    </label>
+
                                 </div>
 
                                 <h5>E-mail</h5>
                                 <div class="form-label-group">
-                                    {{ form_row(registrationForm.email, { label : 'Configurer votre mail' }) }}
+                                    {{ form_widget(registrationForm.email, { 'attr': { 'class': 'form-control', 'id': 'inputUsername',
+                                        'placeholder': 'Nouveau nom', 'autofocus': 'autofocus'} }) }}
+                                    <label for="{{ registrationForm.email.vars.id }}">
+                                        t'es plein de machin
+                                    </label>
                                 </div>
 
                                 <h5>Mot de passe</h5>
                                 <div class="form-label-group">
-                                    {{ form_row(registrationForm.plainPassword, {
-                                        label: 'Configurer votre mot de passe'
-                                    }) }}
+                                    {{ form_widget(registrationForm.plainPassword, { 'attr': { 'class': 'form-control', 'id': 'inputUsername',
+                                        'placeholder': 'Nouveau nom', 'autofocus': 'autofocus'} }) }}
+                                    <label for="{{ registrationForm.plainPassword.vars.id }}">
+                                        je fais pas de miracles comma à Lourdes
+                                    </label>
                                 </div>
 
                             {{ form_row(registrationForm.agreeTerms, { label : 'Coche la case le 100' }) }}
